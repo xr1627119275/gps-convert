@@ -1,0 +1,39 @@
+{
+  "name": "gps-convert",
+  "version": "0.0.12",
+  "author": "xrdev",
+  "email": "1627119275@qq.com",
+  "license": "ISC",
+  "keywords": [
+    "wgs84",
+    "WGS84",
+    "gcj02",
+    "GCJ-02",
+    "bd09",
+    "BD-09",
+    "gpsconvert",
+    "GPSConvert"
+  ],
+  "files": [
+    "dist",
+    "types"
+  ],
+  "main": "./dist/gps-convert.es.js",
+  "module": "./dist/gps-convert.umd.js",
+  "types": "./dist/main.d.ts",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && tsc --emitDeclarationOnly",
+    "serve": "vite preview"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/gps-convert.es.js",
+      "require": "./dist/gps-convert.umd.js"
+    }
+  },
+  "devDependencies": {
+    "typescript": "^4.3.2",
+    "vite": "^2.4.0"
+  }
+}
