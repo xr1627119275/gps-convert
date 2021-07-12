@@ -1,8 +1,12 @@
 {
   "name": "gps-convert",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "author": "xrdev",
   "email": "1627119275@qq.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xr1627119275/gps-convert"
+  },
   "license": "ISC",
   "keywords": [
     "wgs84",
@@ -24,6 +28,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build && tsc --emitDeclarationOnly",
+    "publish": "yarn publish",
     "serve": "vite preview"
   },
   "exports": {
