@@ -10,12 +10,14 @@ https://github.com/wandergis/coordtransform
 ### 使用
 
 ```js
+
 import { wgs84togcj02 } from 'gps-convert'
-
-
 console.log(wgs84togcj02([lng, lat]))
+```
 
-
+```js
+const gpsConvert = require('gps-convert')
+console.log(gpsConvert.wgs84togcj02([lng, lat]))
 ```
 
 ### Type
