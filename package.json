@@ -1,6 +1,6 @@
 {
   "name": "gps-convert",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "author": "xrdev",
   "email": "1627119275@qq.com",
   "repository": {
@@ -28,7 +28,6 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build && tsc --emitDeclarationOnly",
-    "publish": "yarn publish",
     "serve": "vite preview"
   },
   "exports": {
