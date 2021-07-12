@@ -1,3 +1,7 @@
+![npm](https://img.shields.io/npm/v/gps-convert) ![NPM](https://img.shields.io/npm/l/gps-convert) ![npm](https://img.shields.io/npm/dt/gps-convert)
+
+[![NPM](https://nodei.co/npm/gps-convert.png)](https://nodei.co/npm/gps-convert/)
+
 ### 根据 coordtransform 封装成TS版本
 https://github.com/wandergis/coordtransform
 
